@@ -2,4 +2,5 @@
 
 (require 'init-elpa)
 (require 'init-ui)
+(require 'init-editing)
 (provide 'init)
