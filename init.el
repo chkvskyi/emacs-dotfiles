@@ -1,2 +1,4 @@
-(require 'package)
-(add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/"))
+(add-to-list 'load-path "~/.emacs.d/lisp")
+
+(require 'init-elpa)
+(provide 'init)
