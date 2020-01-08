@@ -7,5 +7,6 @@
 (require 'init-miscellaneous)
 (require 'init-company-mode)
 (require 'init-rust)
+(require 'init-typescript)
 
 (provide 'init)
