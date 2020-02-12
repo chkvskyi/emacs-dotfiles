@@ -8,4 +8,6 @@
 (require 'org-bullets)
 (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
 
+(setq org-agenda-files (list "~/org"))
+
 (provide 'init-org)
